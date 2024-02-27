@@ -1,208 +1,258 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>item-page</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20240227134841" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<head>
-	<title>item-page</title>
-	<meta charset="UTF-8" />
-	<meta name="format-detection" content="telephone=no" />
-	<link rel="stylesheet" href="css/style.min.css?_v=20240225141320" />
-	<link rel="shortcut icon" href="favicon.ico" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
+  <body>
+    <div class="wrapper">
+      <header
+        class="header"
+        data-watch
+        data-watch-once
+        data-scroll-show
+        data-scroll="92"
+      >
+        <div class="header__container">
+          <a href="#" class="header__logo">
+            <img src="img/svg/logo-dark.svg" alt="logo" />
+          </a>
 
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-				<a href="index.html" class="header__logo">
-					<img src="img/svg/logo-dark.svg" alt="logo" />
-				</a>
+          <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu">
+              <span></span>
+            </button>
 
-				<div class="header__menu menu">
-					<button type="button" class="menu__icon icon-menu"><span></span></button>
+            <nav class="menu__body">
+              <div class="menu__search search">
+                <div class="search__logo">
+                  <img class="ibg" src="img/svg/search.svg" alt="Image" />
+                </div>
+                <input
+                  class="search__input"
+                  type="text"
+                  placeholder="Search our store"
+                />
+              </div>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="index.html" class="menu__link menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">About Us</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#visit-us" class="menu__link">Contacts</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Login</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__actions">
+            <a
+              href="#"
+              class="header__action header__action--search _icon-search"
+            >
+            </a>
+            <a href="bag.html" class="header__action _icon-shop"> </a>
+          </div>
+        </div>
+      </header>
 
-					<nav class="menu__body">
-						<div class="menu__search search">
-							<div class="search__logo">
-								<img class="ibg" src="img/svg/search.svg" alt="Image" />
-							</div>
-							<input class="search__input" type="text" placeholder="Search our store" />
-						</div>
-						<ul class="menu__list">
-							<li class="menu__item">
-								<a href="index.html" class="menu__link menu__link">Home</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">About Us</a>
-							</li>
-							<li class="menu__item">
-								<a href="#visit-us" class="menu__link">Contacts</a>
-							</li>
-							<li class="menu__item"><a href="#" class="menu__link">Login</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="header__actions">
-					<a href="#" class="header__action header__action--search _icon-search">
-					</a>
-					<a href="bag.html" class="header__action _icon-shop"> </a>
-				</div>
-			</div>
-		</header>
+      <main class="page">
+        <div class="page__container-two">
+          <button class="page__button">
+            <a href="index.html">Back to Home</a>
+          </button>
+          <div class="page__item-product product-item">
+            <div class="product-item__image">
+              <picture
+                ><source srcset="img/item-product.webp" type="image/webp" />
+                <img
+                  src="img/item-product.jpeg"
+                  class="ibg"
+                  alt="Image-item-product"
+              /></picture>
+            </div>
+            <div class="product-item__content">
+              <div class="product-item__category-row row-category">
+                <p class="row-category__item">Birthday flowers</p>
+                <p class="row-category__item">Bouquet</p>
+              </div>
+              <h1 class="product-item__title">Roses Bouquet</h1>
+              <h4 class="product-item__sub-title">Description</h4>
+              <div class="product-item__description">
+                <p>
+                  Pink Candy Flowers Beautiful Bouquet, carefully selected
+                  flowers with foliage arranged to create this beautiful design.
+                </p>
+                <p>
+                  This Bouquet is the ultimate gift to create an impression.
+                  Beautifully wrapped and tied with ribbon before being
+                  delivered. Roses, Lilies, Pink Lilies, Pink Car's and Foliage.
+                </p>
+              </div>
+              <div class="product-item__share share-product-item">
+                <h2 class="share-product-item__title">Share</h2>
+                <div class="share-product-item__row-icon">
+                  <a href="#" class="share-product-item__icon _icon-inst"></a>
+                  <a href="#" class="share-product-item__icon _icon-fb"></a>
+                  <a href="#" class="share-product-item__icon _icon-x"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page__item-add add-item">
+            <div class="add-item__quantity-block">
+              <h5 class="add-item__title">Select quantity</h5>
+              <div data-quantity class="add-item__quantity quantity">
+                <button
+                  data-quantity-minus
+                  type="button"
+                  class="quantity__button quantity__button--minus"
+                ></button>
+                <div class="quantity__input">
+                  <input
+                    data-quantity-value
+                    autocomplete="off"
+                    type="text"
+                    name="form[]"
+                    value="1"
+                  />
+                </div>
+                <button
+                  data-quantity-plus
+                  type="button"
+                  class="quantity__button quantity__button--plus"
+                ></button>
+              </div>
+            </div>
+            <div class="add-item__add-bag">
+              <p class="add-item__price">£9.99</p>
+              <button class="add-item__button" type="submit">Add to bag</button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div
+          data-watch
+          data-watch-threshold="0.7"
+          class="footer__container-two"
+        >
+          <div class="footer__logo-two">
+            <img src="img/svg/logo-dark.svg" class="ibg" alt="logo footer" />
+          </div>
+          <div class="footer__about-us about-us-footer">
+            <div class="about-us-footer__logo">
+              <img src="img/svg/logo-dark.svg" class="ibg" alt="logo footer" />
+            </div>
+            <div class="about-us-footer__text">
+              <p>Deliver a thoughtful bouquet to brighten their day.</p>
+            </div>
+            <div class="about-us-footer__follow-us">
+              <h3 class="about-us-footer__title footer-title footer-title-one">
+                Follow us on
+              </h3>
+              <ul class="about-us-footer__row-icon">
+                <a href="#" class="about-us-footer__icon-link _icon-inst"> </a>
+                <a href="#" class="about-us-footer__icon-link _icon-whats-app">
+                </a>
+                <a href="#" class="about-us-footer__icon-link _icon-fb"> </a>
+                <a href="#" class="about-us-footer__icon-link _icon-x"> </a>
+              </ul>
+            </div>
+          </div>
+          <div
+            data-one-spoller
+            data-spollers="768"
+            class="spollers footer__content"
+          >
+            <details class="footer__links spollers__item links-footer">
+              <summary class="links-footer__wrapper-title spollers__title">
+                <h2 class="links-footer__title footer-title">Useful Links</h2>
+              </summary>
 
-		<main class="page">
-			<div class="page__container-two">
-				<button class="page__button">
-					<a href="index.html">Back to Home</a>
-				</button>
-				<div class="page__item-product product-item">
-					<div class="product-item__image">
-						<picture><source srcset="img/item-product.webp" type="image/webp"><img src="img/item-product.jpeg" class="ibg" alt="Image-item-product" /></picture>
-					</div>
-					<div class="product-item__content">
-						<div class="product-item__category-row row-category">
-							<p class="row-category__item">Birthday flowers</p>
-							<p class="row-category__item">Bouquet</p>
-						</div>
-						<h1 class="product-item__title">Roses Bouquet</h1>
-						<h4 class="product-item__sub-title">Description</h4>
-						<div class="product-item__description">
-							<p>
-								Pink Candy Flowers Beautiful Bouquet, carefully selected
-								flowers with foliage arranged to create this beautiful design.
-							</p>
-							<p>
-								This Bouquet is the ultimate gift to create an impression.
-								Beautifully wrapped and tied with ribbon before being
-								delivered. Roses, Lilies, Pink Lilies, Pink Car's and Foliage.
-							</p>
-						</div>
-						<div class="product-item__share share-product-item">
-							<h2 class="share-product-item__title">Share</h2>
-							<div class="share-product-item__row-icon">
-								<a href="#" class="share-product-item__icon _icon-inst"></a>
-								<a href="#" class="share-product-item__icon _icon-fb"></a>
-								<a href="#" class="share-product-item__icon _icon-x"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="page__item-add add-item">
-					<div class="add-item__quantity-block">
-						<h5 class="add-item__title">Select quantity</h5>
-						<div data-quantity class="add-item__quantity quantity">
-							<button data-quantity-minus type="button" class="quantity__button quantity__button--minus"></button>
-							<div class="quantity__input">
-								<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1" />
-							</div>
-							<button data-quantity-plus type="button" class="quantity__button quantity__button--plus"></button>
-						</div>
-					</div>
-					<div class="add-item__add-bag">
-						<p class="add-item__price">£9.99</p>
-						<button class="add-item__button" type="submit">Add to bag</button>
-					</div>
-				</div>
-			</div>
-		</main>
-		<footer class="footer">
-			<div class="footer__container-two">
-				<div class="footer__logo-two">
-					<img src="img/svg/logo-dark.svg" class="ibg" alt="logo footer" />
-				</div>
-				<div class="footer__about-us about-us-footer">
+              <ul class="links-footer__list spollers__body">
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">Home</a>
+                </li>
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">About</a>
+                </li>
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">Editorial Floret</a>
+                </li>
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">Event Floret</a>
+                </li>
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">Custom Floret</a>
+                </li>
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">Wedding Floret</a>
+                </li>
+              </ul>
+            </details>
+            <details
+              class="footer__information information-footer spollers__item"
+            >
+              <summary class="footer__wrapper-title spollers__title">
+                <h2 class="information-footer__title footer-title">
+                  Information
+                </h2>
+              </summary>
 
-					<div class="about-us-footer__logo">
-						<img src="img/svg/logo-dark.svg" class="ibg" alt="logo footer" />
-					</div>
-					<div class="about-us-footer__text">
-						<p>Deliver a thoughtful bouquet to brighten their day.</p>
-					</div>
-					<div class="about-us-footer__follow-us">
-						<h3 class="about-us-footer__title footer-title footer-title-one">
-							Follow us on
-						</h3>
-						<ul class="about-us-footer__row-icon">
-							<a href="#" class="about-us-footer__icon-link _icon-inst"> </a>
-							<a href="#" class="about-us-footer__icon-link _icon-whats-app"> </a>
-							<a href="#" class="about-us-footer__icon-link _icon-fb"> </a>
-							<a href="#" class="about-us-footer__icon-link _icon-x"> </a>
-						</ul>
-					</div>
-				</div>
-				<div data-one-spoller data-spollers="768" class="spollers footer__content">
-					<details class="footer__links spollers__item links-footer">
-						<summary class="links-footer__wrapper-title spollers__title">
-							<h2 class="links-footer__title footer-title">Useful Links</h2>
-						</summary>
+              <ul class="information-footer__list spollers__body">
+                <li class="information-footer__item">
+                  <a href="#" class="information-footer__link">Career</a>
+                </li>
+                <li class="information-footer__item">
+                  <a href="#" class="information-footer__link">Blog</a>
+                </li>
+                <li class="information-footer__item">
+                  <a href="#" class="information-footer__link">Gallery</a>
+                </li>
+                <li class="information-footer__item">
+                  <a href="#" class="information-footer__link">Help & FAQs</a>
+                </li>
+              </ul>
+            </details>
+            <details
+              class="footer__contact-us contact-us-footer spollers__item"
+            >
+              <summary class="footer__wrapper-title spollers__title">
+                <h2 class="contact-us-footer__title footer-title">
+                  Contact Us
+                </h2>
+              </summary>
 
-						<ul class="links-footer__list spollers__body">
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">Home</a>
-							</li>
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">About</a>
-							</li>
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">Editorial Floret</a>
-							</li>
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">Event Floret</a>
-							</li>
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">Custom Floret</a>
-							</li>
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">Wedding Floret</a>
-							</li>
-						</ul>
-					</details>
-					<details class="footer__information information-footer spollers__item">
-						<summary class="footer__wrapper-title spollers__title">
-							<h2 class="information-footer__title footer-title">Information</h2>
-						</summary>
-
-						<ul class="information-footer__list spollers__body">
-							<li class="information-footer__item">
-								<a href="#" class="information-footer__link">Career</a>
-							</li>
-							<li class="information-footer__item">
-								<a href="#" class="information-footer__link">Blog</a>
-							</li>
-							<li class="information-footer__item">
-								<a href="#" class="information-footer__link">Gallery</a>
-							</li>
-							<li class="information-footer__item">
-								<a href="#" class="information-footer__link">Help & FAQs</a>
-							</li>
-						</ul>
-					</details>
-					<details class="footer__contact-us contact-us-footer spollers__item">
-						<summary class="footer__wrapper-title spollers__title">
-							<h2 class="contact-us-footer__title footer-title">Contact Us</h2>
-						</summary>
-
-						<div class="contact-us-footer__content spollers__body">
-							<a href="#" class="contact-us-footer__write">
-								<div class="contact-us-footer__icon _icon-mail"></div>
-								<p class="contact-us-footer__text">Write to us</p>
-							</a>
-							<a href="#" class="contact-us-footer__phone">
-								<div class="contact-us-footer__icon _icon-phone"></div>
-								<p class="contact-us-footer__number-phone">(119) 254-3121</p>
-							</a>
-							<a href="#" class="contact-us-footer__chat">
-								<div class="contact-us-footer__icon _icon-whats-app"></div>
-								<p class="contact-us-footer__text">Chat with us</p>
-							</a>
-						</div>
-					</details>
-				</div>
-			</div>
-		</footer>
-
-	</div>
-	<script src="js/app.min.js?_v=20240225141320"></script>
-</body>
-
+              <div class="contact-us-footer__content spollers__body">
+                <a href="#" class="contact-us-footer__write">
+                  <div class="contact-us-footer__icon _icon-mail"></div>
+                  <p class="contact-us-footer__text">Write to us</p>
+                </a>
+                <a href="#" class="contact-us-footer__phone">
+                  <div class="contact-us-footer__icon _icon-phone"></div>
+                  <p class="contact-us-footer__number-phone">(119) 254-3121</p>
+                </a>
+                <a href="#" class="contact-us-footer__chat">
+                  <div class="contact-us-footer__icon _icon-whats-app"></div>
+                  <p class="contact-us-footer__text">Chat with us</p>
+                </a>
+              </div>
+            </details>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/app.min.js?_v=20240227134841"></script>
+  </body>
 </html>
