@@ -1,1427 +1,2165 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>HomePage</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- <style>body{opacity: 0;}</style> -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20240227143237" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<head>
-	<title>HomePage</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240227143237">
-	<link rel="shortcut icon" href="favicon.ico">
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+  <body>
+    <div class="wrapper">
+      <header
+        class="header"
+        data-watch
+        data-watch-once
+        data-scroll-show
+        data-scroll="92"
+      >
+        <div class="header__container">
+          <a href="#" class="header__logo">
+            <img src="img/svg/logo-dark.svg" alt="logo" />
+          </a>
 
-<body>
-	<div class="wrapper">
-		<header class="header" data-watch data-watch-once data-scroll-show data-scroll="92">
-			<div class="header__container">
-				<a href="#" class="header__logo">
-					<img src="img/svg/logo-dark.svg" alt="logo" />
-				</a>
+          <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu">
+              <span></span>
+            </button>
 
-				<div class="header__menu menu">
-					<button type="button" class="menu__icon icon-menu"><span></span></button>
+            <nav class="menu__body">
+              <div class="menu__search search">
+                <div class="search__logo">
+                  <img class="ibg" src="img/svg/search.svg" alt="Image" />
+                </div>
+                <input
+                  class="search__input"
+                  type="text"
+                  placeholder="Search our store"
+                />
+              </div>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="index.html" class="menu__link menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">About Us</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#visit-us" class="menu__link">Contacts</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Login</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__actions">
+            <a
+              href="#"
+              class="header__action header__action--search _icon-search"
+            >
+            </a>
+            <a href="bag.html" class="header__action _icon-shop"> </a>
+          </div>
+        </div>
+      </header>
 
-					<nav class="menu__body">
-						<div class="menu__search search">
-							<div class="search__logo">
-								<img class="ibg" src="img/svg/search.svg" alt="Image" />
-							</div>
-							<input class="search__input" type="text" placeholder="Search our store" />
-						</div>
-						<ul class="menu__list">
-							<li class="menu__item">
-								<a href="index.html" class="menu__link menu__link">Home</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">About Us</a>
-							</li>
-							<li class="menu__item">
-								<a href="#visit-us" class="menu__link">Contacts</a>
-							</li>
-							<li class="menu__item"><a href="#" class="menu__link">Login</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="header__actions">
-					<a href="#" class="header__action header__action--search _icon-search">
-					</a>
-					<a href="bag.html" class="header__action _icon-shop"> </a>
-				</div>
-			</div>
-		</header>
+      <main class="page">
+        <section
+          data-watch
+          data-watch-once
+          data-watch-threshold="0.5"
+          class="page__block-head head-block"
+        >
+          <div class="head-block__content">
+            <div class="head-block__container">
+              <h1 class="head-block__title">
+                <span>Flowers</span> From the heart
+              </h1>
+              <div class="head-block__text">
+                <p>Deliver a thoughtful bouquet to brighten their day.</p>
+              </div>
+              <button class="head-block__button">
+                <a class="head-block__link" href="bag.html">Order now</a>
+              </button>
+            </div>
+          </div>
+          <div
+            data-watch
+            data-watch-once
+            data-watch-threshold="0.5"
+            class="head-block__services"
+          >
+            <div class="head-block__container">
+              <div class="head-block__row">
+                <div class="head-block_item head-block_item--one">
+                  <div class="head-block__icon _icon-car"></div>
+                  <h3 class="head-block__name-item">fast delivery</h3>
+                </div>
+                <div class="head-block_item head-block_item--two">
+                  <div class="head-block__icon _icon-fallow"></div>
+                  <h3 class="head-block__name-item">Fresh flowers</h3>
+                </div>
+                <div class="head-block_item head-block_item--three">
+                  <div class="head-block__icon _icon-card"></div>
+                  <h3 class="head-block__name-item">Cheap Prices</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__sellers-flower flower-sellers">
+          <div class="flower-sellers__container">
+            <div
+              data-watch
+              data-watch-once
+              data-watch-threshold="0.2"
+              class="flower-sellers__wrapper"
+            >
+              <div class="flower-sellers__head">
+                <h2 class="flower-sellers__title">
+                  Our best sellers this month
+                </h2>
+                <div class="flower-sellers__info">
+                  <p class="flower-sellers__number-item">18 items</p>
+                  <a href="see-all.html" class="flower-sellers__link-see"
+                    >See All</a
+                  >
+                </div>
+              </div>
+              <div class="flower-sellers__slider swiper-two">
+                <div class="flower-sellers__wrapper swiper-wrapper">
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-		<main class="page">
-			<section data-watch data-watch-once data-watch-threshold="0.5" class="page__block-head head-block">
-				<div class="head-block__content">
-					<div class="head-block__container">
-						<h1 class="head-block__title">
-							<span>Flowers</span> From the heart
-						</h1>
-						<div class="head-block__text">
-							<p>Deliver a thoughtful bouquet to brighten their day.</p>
-						</div>
-						<button class="head-block__button">
-							<a class="head-block__link" href="bag.html">Order now</a>
-						</button>
-					</div>
-				</div>
-				<div data-watch data-watch-once data-watch-threshold="0.5" class="head-block__services">
-					<div class="head-block__container">
-						<div class="head-block__row">
-							<div class="head-block_item head-block_item--one">
-								<div class="head-block__icon _icon-car"></div>
-								<h3 class="head-block__name-item">fast delivery</h3>
-							</div>
-							<div class="head-block_item head-block_item--two">
-								<div class="head-block__icon _icon-fallow"></div>
-								<h3 class="head-block__name-item">Fresh flowers</h3>
-							</div>
-							<div class="head-block_item head-block_item--three">
-								<div class="head-block__icon _icon-card"></div>
-								<h3 class="head-block__name-item">Cheap Prices</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__sellers-flower flower-sellers">
-				<div class="flower-sellers__container">
-					<div data-watch data-watch-once data-watch-threshold="0.2" class="flower-sellers__wrapper">
-						<div class="flower-sellers__head">
-							<h2 class="flower-sellers__title">
-								Our best sellers this month
-							</h2>
-							<div class="flower-sellers__info">
-								<p class="flower-sellers__number-item">18 items</p>
-								<a href="see-all.html" class="flower-sellers__link-see">See All</a>
-							</div>
-						</div>
-						<div class="flower-sellers__slider swiper-two">
-							<div class="flower-sellers__wrapper swiper-wrapper">
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-1.webp" type="image/webp"><img src="img/flower-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-2.webp" type="image/webp"><img src="img/flower-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-3.webp" type="image/webp"><img src="img/flower-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-4.webp" type="image/webp"><img src="img/flower-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-1.webp" type="image/webp"><img src="img/flower-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-2.webp" type="image/webp"><img src="img/flower-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-3.webp" type="image/webp"><img src="img/flower-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-4.webp" type="image/webp"><img src="img/flower-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
+                <button
+                  type="button"
+                  class="swiper-button-prev-two _icon-arrow-left"
+                ></button>
+                <button
+                  type="button"
+                  class="swiper-button-next-two _icon-arrow-right"
+                ></button>
+              </div>
+            </div>
+            <div
+              data-watch
+              data-watch-once
+              data-watch-threshold="0.4"
+              class="flower-sellers__wrapper"
+            >
+              <div class="flower-sellers__head">
+                <h2 class="flower-sellers__title">Birthday flowers</h2>
+                <div class="flower-sellers__info">
+                  <p class="flower-sellers__number-item">18 items</p>
+                  <a href="see-all.html" class="flower-sellers__link-see"
+                    >See All</a
+                  >
+                </div>
+              </div>
+              <div class="flower-sellers__slider swiper-two">
+                <div class="flower-sellers__wrapper swiper-wrapper">
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-2-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-2-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-2-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-2-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-2-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-2-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-2-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-2-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-2-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-2-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-2-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-2-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-2-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-2-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-2-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-2-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-							<button type="button" class="swiper-button-prev-two _icon-arrow-left"></button>
-							<button type="button" class="swiper-button-next-two _icon-arrow-right"></button>
-						</div>
-					</div>
-					<div data-watch data-watch-once data-watch-threshold="0.4" class="flower-sellers__wrapper">
-						<div class="flower-sellers__head">
-							<h2 class="flower-sellers__title">Birthday flowers</h2>
-							<div class="flower-sellers__info">
-								<p class="flower-sellers__number-item">18 items</p>
-								<a href="see-all.html" class="flower-sellers__link-see">See All</a>
-							</div>
-						</div>
-						<div class="flower-sellers__slider swiper-two">
-							<div class="flower-sellers__wrapper swiper-wrapper">
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-2-1.webp" type="image/webp"><img src="img/flower-2-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-2-2.webp" type="image/webp"><img src="img/flower-2-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-2-3.webp" type="image/webp"><img src="img/flower-2-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-2-4.webp" type="image/webp"><img src="img/flower-2-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-2-1.webp" type="image/webp"><img src="img/flower-2-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-2-2.webp" type="image/webp"><img src="img/flower-2-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-2-3.webp" type="image/webp"><img src="img/flower-2-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-2-4.webp" type="image/webp"><img src="img/flower-2-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
+                <button
+                  type="button"
+                  class="swiper-button-prev-two _icon-arrow-left"
+                ></button>
+                <button
+                  type="button"
+                  class="swiper-button-next-two _icon-arrow-right"
+                ></button>
+              </div>
+            </div>
+            <div
+              data-watch
+              data-watch-once
+              data-watch-threshold="0.4"
+              class="flower-sellers__wrapper"
+            >
+              <div class="flower-sellers__head">
+                <h2 class="flower-sellers__title">Shop By Occasion</h2>
+                <div class="flower-sellers__info">
+                  <p class="flower-sellers__number-item">18 items</p>
+                  <a href="see-all.html" class="flower-sellers__link-see"
+                    >See All</a
+                  >
+                </div>
+              </div>
+              <div class="flower-sellers__slider swiper-two">
+                <div class="flower-sellers__wrapper swiper-wrapper">
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-3-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-3-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-3-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-3-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-3-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-3-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-3-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-3-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-3-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-3-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-3-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-3-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-3-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-3-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-3-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-3-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-							<button type="button" class="swiper-button-prev-two _icon-arrow-left"></button>
-							<button type="button" class="swiper-button-next-two _icon-arrow-right"></button>
-						</div>
-					</div>
-					<div data-watch data-watch-once data-watch-threshold="0.4" class="flower-sellers__wrapper">
-						<div class="flower-sellers__head">
-							<h2 class="flower-sellers__title">Shop By Occasion</h2>
-							<div class="flower-sellers__info">
-								<p class="flower-sellers__number-item">18 items</p>
-								<a href="see-all.html" class="flower-sellers__link-see">See All</a>
-							</div>
-						</div>
-						<div class="flower-sellers__slider swiper-two">
-							<div class="flower-sellers__wrapper swiper-wrapper">
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-3-1.webp" type="image/webp"><img src="img/flower-3-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-3-2.webp" type="image/webp"><img src="img/flower-3-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-3-3.webp" type="image/webp"><img src="img/flower-3-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-3-4.webp" type="image/webp"><img src="img/flower-3-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-3-1.webp" type="image/webp"><img src="img/flower-3-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-3-2.webp" type="image/webp"><img src="img/flower-3-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-3-3.webp" type="image/webp"><img src="img/flower-3-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-3-4.webp" type="image/webp"><img src="img/flower-3-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
+                <button
+                  type="button"
+                  class="swiper-button-prev-two _icon-arrow-left"
+                ></button>
+                <button
+                  type="button"
+                  class="swiper-button-next-two _icon-arrow-right"
+                ></button>
+              </div>
+            </div>
+            <div
+              data-watch
+              data-watch-once
+              data-watch-threshold="0.4"
+              class="flower-sellers__wrapper"
+            >
+              <div class="flower-sellers__head">
+                <h2 class="flower-sellers__title">Shop By Sentiment</h2>
+                <div class="flower-sellers__info">
+                  <p class="flower-sellers__number-item">18 items</p>
+                  <a href="see-all.html" class="flower-sellers__link-see"
+                    >See All</a
+                  >
+                </div>
+              </div>
+              <div class="flower-sellers__slider swiper-two">
+                <div class="flower-sellers__wrapper swiper-wrapper">
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-4-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-4-1.jpeg" class="ibg" alt="#22"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-4-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-4-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-4-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-4-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-4-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-4-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-4-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-4-1.jpeg" class="ibg" alt="#33"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-4-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-4-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-4-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-4-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-4-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-4-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-							<button type="button" class="swiper-button-prev-two _icon-arrow-left"></button>
-							<button type="button" class="swiper-button-next-two _icon-arrow-right"></button>
-						</div>
-					</div>
-					<div data-watch data-watch-once data-watch-threshold="0.4" class="flower-sellers__wrapper">
-						<div class="flower-sellers__head">
-							<h2 class="flower-sellers__title">Shop By Sentiment</h2>
-							<div class="flower-sellers__info">
-								<p class="flower-sellers__number-item">18 items</p>
-								<a href="see-all.html" class="flower-sellers__link-see">See All</a>
-							</div>
-						</div>
-						<div class="flower-sellers__slider swiper-two">
-							<div class="flower-sellers__wrapper swiper-wrapper">
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-4-1.webp" type="image/webp"><img src="img/flower-4-1.jpeg" class="ibg" alt="#22" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-4-2.webp" type="image/webp"><img src="img/flower-4-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-4-3.webp" type="image/webp"><img src="img/flower-4-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-4-4.webp" type="image/webp"><img src="img/flower-4-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-4-1.webp" type="image/webp"><img src="img/flower-4-1.jpeg" class="ibg" alt="#33" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-4-2.webp" type="image/webp"><img src="img/flower-4-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-4-3.webp" type="image/webp"><img src="img/flower-4-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-4-4.webp" type="image/webp"><img src="img/flower-4-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
+                <button
+                  type="button"
+                  class="swiper-button-prev-two _icon-arrow-left"
+                ></button>
+                <button
+                  type="button"
+                  class="swiper-button-next-two _icon-arrow-right"
+                ></button>
+              </div>
+            </div>
+            <div
+              data-watch
+              data-watch-once
+              data-watch-threshold="0.4"
+              class="flower-sellers__wrapper"
+            >
+              <div class="flower-sellers__head">
+                <h2 class="flower-sellers__title">Shop By Product</h2>
+                <div class="flower-sellers__info">
+                  <p class="flower-sellers__number-item">18 items</p>
+                  <a href="see-all.html" class="flower-sellers__link-see"
+                    >See All</a
+                  >
+                </div>
+              </div>
+              <div class="flower-sellers__slider swiper-two">
+                <div class="flower-sellers__wrapper swiper-wrapper">
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-5-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-5-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-5-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-5-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-5-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-5-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-5-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-5-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-5-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-5-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-5-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-5-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-5-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-5-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-5-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-5-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-							<button type="button" class="swiper-button-prev-two _icon-arrow-left"></button>
-							<button type="button" class="swiper-button-next-two _icon-arrow-right"></button>
-						</div>
-					</div>
-					<div data-watch data-watch-once data-watch-threshold="0.4" class="flower-sellers__wrapper">
-						<div class="flower-sellers__head">
-							<h2 class="flower-sellers__title">Shop By Product</h2>
-							<div class="flower-sellers__info">
-								<p class="flower-sellers__number-item">18 items</p>
-								<a href="see-all.html" class="flower-sellers__link-see">See All</a>
-							</div>
-						</div>
-						<div class="flower-sellers__slider swiper-two">
-							<div class="flower-sellers__wrapper swiper-wrapper">
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-5-1.webp" type="image/webp"><img src="img/flower-5-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-5-2.webp" type="image/webp"><img src="img/flower-5-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-5-3.webp" type="image/webp"><img src="img/flower-5-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-5-4.webp" type="image/webp"><img src="img/flower-5-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-5-1.webp" type="image/webp"><img src="img/flower-5-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-5-2.webp" type="image/webp"><img src="img/flower-5-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-5-3.webp" type="image/webp"><img src="img/flower-5-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-5-4.webp" type="image/webp"><img src="img/flower-5-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
+                <button
+                  type="button"
+                  class="swiper-button-prev-two _icon-arrow-left"
+                ></button>
+                <button
+                  type="button"
+                  class="swiper-button-next-two _icon-arrow-right"
+                ></button>
+              </div>
+            </div>
+            <div
+              data-watch
+              data-watch-once
+              data-watch-threshold="0.4"
+              class="flower-sellers__wrapper"
+            >
+              <div class="flower-sellers__head">
+                <h2 class="flower-sellers__title">Chocolates</h2>
+                <div class="flower-sellers__info">
+                  <p class="flower-sellers__number-item">18 items</p>
+                  <a href="see-all.html" class="flower-sellers__link-see"
+                    >See All</a
+                  >
+                </div>
+              </div>
+              <div class="flower-sellers__slider swiper-two">
+                <div class="flower-sellers__wrapper swiper-wrapper">
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-6-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-6-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-6-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-6-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-6-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-6-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-6-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-6-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-6-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-6-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-6-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-6-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-6-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-6-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-6-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-6-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-							<button type="button" class="swiper-button-prev-two _icon-arrow-left"></button>
-							<button type="button" class="swiper-button-next-two _icon-arrow-right"></button>
-						</div>
-					</div>
-					<div data-watch data-watch-once data-watch-threshold="0.4" class="flower-sellers__wrapper">
-						<div class="flower-sellers__head">
-							<h2 class="flower-sellers__title">Chocolates</h2>
-							<div class="flower-sellers__info">
-								<p class="flower-sellers__number-item">18 items</p>
-								<a href="see-all.html" class="flower-sellers__link-see">See All</a>
-							</div>
-						</div>
-						<div class="flower-sellers__slider swiper-two">
-							<div class="flower-sellers__wrapper swiper-wrapper">
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-6-1.webp" type="image/webp"><img src="img/flower-6-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-6-2.webp" type="image/webp"><img src="img/flower-6-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-6-3.webp" type="image/webp"><img src="img/flower-6-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-6-4.webp" type="image/webp"><img src="img/flower-6-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-6-1.webp" type="image/webp"><img src="img/flower-6-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-6-2.webp" type="image/webp"><img src="img/flower-6-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-6-3.webp" type="image/webp"><img src="img/flower-6-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-6-4.webp" type="image/webp"><img src="img/flower-6-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
+                <button
+                  type="button"
+                  class="swiper-button-prev-two _icon-arrow-left"
+                ></button>
+                <button
+                  type="button"
+                  class="swiper-button-next-two _icon-arrow-right"
+                ></button>
+              </div>
+            </div>
+            <div
+              data-watch
+              data-watch-once
+              data-watch-threshold="0.4"
+              class="flower-sellers__wrapper"
+            >
+              <div class="flower-sellers__head">
+                <h2 class="flower-sellers__title">Balloons</h2>
+                <div class="flower-sellers__info">
+                  <p class="flower-sellers__number-item">18 items</p>
+                  <a href="see-all.html" class="flower-sellers__link-see"
+                    >See All</a
+                  >
+                </div>
+              </div>
+              <div class="flower-sellers__slider swiper-two">
+                <div class="flower-sellers__wrapper swiper-wrapper">
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-7-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-7-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-7-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-7-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-7-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-7-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-7-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-7-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-7-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-7-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-7-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-7-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-7-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-7-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-7-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-7-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-							<button type="button" class="swiper-button-prev-two _icon-arrow-left"></button>
-							<button type="button" class="swiper-button-next-two _icon-arrow-right"></button>
-						</div>
-					</div>
-					<div data-watch data-watch-once data-watch-threshold="0.4" class="flower-sellers__wrapper">
-						<div class="flower-sellers__head">
-							<h2 class="flower-sellers__title">Balloons</h2>
-							<div class="flower-sellers__info">
-								<p class="flower-sellers__number-item">18 items</p>
-								<a href="see-all.html" class="flower-sellers__link-see">See All</a>
-							</div>
-						</div>
-						<div class="flower-sellers__slider swiper-two">
-							<div class="flower-sellers__wrapper swiper-wrapper">
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-7-1.webp" type="image/webp"><img src="img/flower-7-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-7-2.webp" type="image/webp"><img src="img/flower-7-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-7-3.webp" type="image/webp"><img src="img/flower-7-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-7-4.webp" type="image/webp"><img src="img/flower-7-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-7-1.webp" type="image/webp"><img src="img/flower-7-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-7-2.webp" type="image/webp"><img src="img/flower-7-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-7-3.webp" type="image/webp"><img src="img/flower-7-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-7-4.webp" type="image/webp"><img src="img/flower-7-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
+                <button
+                  type="button"
+                  class="swiper-button-prev-two _icon-arrow-left"
+                ></button>
+                <button
+                  type="button"
+                  class="swiper-button-next-two _icon-arrow-right"
+                ></button>
+              </div>
+            </div>
+            <div
+              data-watch
+              data-watch-once
+              data-watch-threshold="0.2"
+              class="flower-sellers__wrapper"
+            >
+              <div class="flower-sellers__head">
+                <h2 class="flower-sellers__title">Teddy bears</h2>
+                <div class="flower-sellers__info">
+                  <p class="flower-sellers__number-item">18 items</p>
+                  <a href="see-all.html" class="flower-sellers__link-see"
+                    >See All</a
+                  >
+                </div>
+              </div>
+              <div class="flower-sellers__slider swiper-two">
+                <div class="flower-sellers__wrapper swiper-wrapper">
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-8-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-8-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-8-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-8-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-8-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-8-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-8-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-8-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-8-1.webp"
+                            type="image/webp" />
+                          <img src="img/flower-8-1.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-8-2.webp"
+                            type="image/webp" />
+                          <img src="img/flower-8-2.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-8-3.webp"
+                            type="image/webp" />
+                          <img src="img/flower-8-3.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flower-sellers__slide swiper-slide">
+                    <div class="flower-sellers__card card-flower">
+                      <a href="item-page.html" class="card-flower__image">
+                        <picture
+                          ><source
+                            srcset="img/flower-8-4.webp"
+                            type="image/webp" />
+                          <img src="img/flower-8-4.jpeg" class="ibg" alt="#"
+                        /></picture>
+                      </a>
+                      <div class="card-flower__content">
+                        <a href="item-page.html" class="card-flower__text">
+                          <h4 class="card-flower__name">Gerbera Bouquet</h4>
+                          <p class="card-flower__price">£9.99</p>
+                        </a>
+                        <a href="bag.html" class="card-flower__icon">
+                          <img
+                            src="img/svg/shop-white.svg"
+                            class="ibg"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-							<button type="button" class="swiper-button-prev-two _icon-arrow-left"></button>
-							<button type="button" class="swiper-button-next-two _icon-arrow-right"></button>
-						</div>
-					</div>
-					<div data-watch data-watch-once data-watch-threshold="0.2" class="flower-sellers__wrapper">
-						<div class="flower-sellers__head">
-							<h2 class="flower-sellers__title">Teddy bears</h2>
-							<div class="flower-sellers__info">
-								<p class="flower-sellers__number-item">18 items</p>
-								<a href="see-all.html" class="flower-sellers__link-see">See All</a>
-							</div>
-						</div>
-						<div class="flower-sellers__slider swiper-two">
-							<div class="flower-sellers__wrapper swiper-wrapper">
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-8-1.webp" type="image/webp"><img src="img/flower-8-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-8-2.webp" type="image/webp"><img src="img/flower-8-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-8-3.webp" type="image/webp"><img src="img/flower-8-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-8-4.webp" type="image/webp"><img src="img/flower-8-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-8-1.webp" type="image/webp"><img src="img/flower-8-1.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-8-2.webp" type="image/webp"><img src="img/flower-8-2.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-8-3.webp" type="image/webp"><img src="img/flower-8-3.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="flower-sellers__slide swiper-slide">
-									<div class="flower-sellers__card card-flower">
-										<a href="item-page.html" class="card-flower__image">
-											<picture><source srcset="img/flower-8-4.webp" type="image/webp"><img src="img/flower-8-4.jpeg" class="ibg" alt="#" /></picture>
-										</a>
-										<div class="card-flower__content">
-											<a href="item-page.html" class="card-flower__text">
-												<h4 class="card-flower__name">Gerbera Bouquet</h4>
-												<p class="card-flower__price">£9.99</p>
-											</a>
-											<a href="bag.html" class="card-flower__icon">
-												<img src="img/svg/shop-white.svg" class="ibg" alt="Image" />
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
+                <button
+                  type="button"
+                  class="swiper-button-prev-two _icon-arrow-left"
+                ></button>
+                <button
+                  type="button"
+                  class="swiper-button-next-two _icon-arrow-right"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          data-watch
+          data-watch-once
+          data-watch-threshold="0.6"
+          class="page__block-respond respond-block"
+        >
+          <div class="respond-block__container">
+            <div class="respond-block__slider swiper">
+              <div class="respond-block__wrapper swiper-wrapper">
+                <div class="respond-block__slide swiper-slide">
+                  <div class="respond-block__text">
+                    <p>
+                      “The flowers were fabulous, the message card was missing
+                      so my friend didn't know who they were from. More
+                      important the flowers were in top condition”
+                    </p>
+                  </div>
+                  <div class="respond-block__author">
+                    <div class="respond-block__logo">
+                      <img src="img/author.jpeg " class="ibg" alt="Image" />
+                    </div>
+                    <h4 class="respond-block__name">Mrs Paddick, Bridgend</h4>
+                  </div>
+                </div>
+                <div class="respond-block__slide swiper-slide">
+                  <div class="respond-block__text">
+                    <p>
+                      “The flowers were fabulous, the message card was missing
+                      so my friend didn't know who they were from. More
+                      important the flowers were in top condition”
+                    </p>
+                  </div>
+                  <div class="respond-block__author">
+                    <div class="respond-block__logo">
+                      <img src="img/author.jpeg " class="ibg" alt="Image" />
+                    </div>
+                    <h4 class="respond-block__name">Mrs Paddick, Bridgend</h4>
+                  </div>
+                </div>
+                <div class="respond-block__slide swiper-slide">
+                  <div class="respond-block__text">
+                    <p>
+                      “The flowers were fabulous, the message card was missing
+                      so my friend didn't know who they were from. More
+                      important the flowers were in top condition”
+                    </p>
+                  </div>
+                  <div class="respond-block__author">
+                    <div class="respond-block__logo">
+                      <img src="img/author.jpeg " class="ibg" alt="Image" />
+                    </div>
+                    <h4 class="respond-block__name">Mrs Paddick, Bridgend</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="respond-block__pagination swiper-pagination"></div>
+            <div
+              class="respond-block__button-left swiper-button-prev _icon-arrow-left"
+            ></div>
+            <div
+              class="respond-block__button-right swiper-button-next _icon-arrow-right"
+            ></div>
+          </div>
+        </section>
+        <section id="visit-us" class="page__visit-us visit-us">
+          <div class="visit-us__container">
+            <div
+              data-watch
+              data-watch-once
+              data-watch-threshold="0.6"
+              class="visit-us__row"
+            >
+              <div class="visit-us__content">
+                <h2 class="visit-us__title">Visit us</h2>
+                <div class="visit-us__address">
+                  <p>488 Stone Close,</p>
+                  <p>Yiewsley West Drayton,</p>
+                  <p>United Kingdom</p>
+                </div>
+                <div class="visit-us__date">
+                  <p>Mon-Sat, 10 aM-7 pM</p>
+                </div>
+                <div class="visit-us__phone">
+                  <a href="#">(119) 254-3121</a>
+                </div>
+              </div>
+              <div class="visit-us__map">
+                <picture
+                  ><source srcset="img/map1.webp" type="image/webp" />
+                  <img src="img/map1.png" class="ibg" alt="Image map"
+                /></picture>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
 
-							<button type="button" class="swiper-button-prev-two _icon-arrow-left"></button>
-							<button type="button" class="swiper-button-next-two _icon-arrow-right"></button>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section data-watch data-watch-once data-watch-threshold="0.6" class="page__block-respond respond-block">
-				<div class="respond-block__container">
-					<div class="respond-block__slider swiper">
-						<div class="respond-block__wrapper swiper-wrapper">
-							<div class="respond-block__slide swiper-slide">
-								<div class="respond-block__text">
-									<p>
-										“The flowers were fabulous, the message card was missing
-										so my friend didn't know who they were from. More
-										important the flowers were in top condition”
-									</p>
-								</div>
-								<div class="respond-block__author">
-									<div class="respond-block__logo">
-										<img src=img/author.jpeg " class=" ibg" alt="Image" />
-									</div>
-									<h4 class="respond-block__name">Mrs Paddick, Bridgend</h4>
-								</div>
-							</div>
-							<div class="respond-block__slide swiper-slide">
-								<div class="respond-block__text">
-									<p>
-										“The flowers were fabulous, the message card was missing
-										so my friend didn't know who they were from. More
-										important the flowers were in top condition”
-									</p>
-								</div>
-								<div class="respond-block__author">
-									<div class="respond-block__logo">
-										<img src=img/cover.jpg " class=" ibg" alt="Image" />
-									</div>
-									<h4 class="respond-block__name">Mrs Paddick, Bridgend</h4>
-								</div>
-							</div>
-							<div class="respond-block__slide swiper-slide">
-								<div class="respond-block__text">
-									<p>
-										“The flowers were fabulous, the message card was missing
-										so my friend didn't know who they were from. More
-										important the flowers were in top condition”
-									</p>
-								</div>
-								<div class="respond-block__author">
-									<div class="respond-block__logo">
-										<img src=img/author.jpeg " class=" ibg" alt="Image" />
-									</div>
-									<h4 class="respond-block__name">Mrs Paddick, Bridgend</h4>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="respond-block__pagination swiper-pagination"></div>
-					<div class="respond-block__button-left swiper-button-prev _icon-arrow-left"></div>
-					<div class="respond-block__button-right swiper-button-next _icon-arrow-right"></div>
-				</div>
-			</section>
-			<section id="visit-us" class="page__visit-us visit-us">
-				<div class="visit-us__container">
-					<div data-watch data-watch-once data-watch-threshold="0.6" class="visit-us__row">
-						<div class="visit-us__content">
-							<h2 class="visit-us__title">Visit us</h2>
-							<div class="visit-us__address">
-								<p>488 Stone Close,</p>
-								<p>Yiewsley West Drayton,</p>
-								<p>United Kingdom</p>
-							</div>
-							<div class="visit-us__date">
-								<p>Mon-Sat, 10 aM-7 pM</p>
-							</div>
-							<div class="visit-us__phone">
-								<a href="#">(119) 254-3121</a>
-							</div>
-						</div>
-						<div class="visit-us__map">
-							<picture><source srcset="img/map1.webp" type="image/webp"><img src="img/map1.png" class="ibg" alt="Image map" /></picture>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
+      <footer class="footer">
+        <div
+          data-watch
+          data-watch-threshold="0.4"
+          class="footer__container-two"
+        >
+          <div class="footer__logo-two">
+            <img src="img/svg/logo-dark.svg" class="ibg" alt="logo footer" />
+          </div>
+          <div class="footer__about-us about-us-footer">
+            <div class="about-us-footer__logo">
+              <img src="img/svg/logo-dark.svg" class="ibg" alt="logo footer" />
+            </div>
+            <div class="about-us-footer__text">
+              <p>Deliver a thoughtful bouquet to brighten their day.</p>
+            </div>
+            <div class="about-us-footer__follow-us">
+              <h3 class="about-us-footer__title footer-title footer-title-one">
+                Follow us on
+              </h3>
+              <ul class="about-us-footer__row-icon">
+                <a href="#" class="about-us-footer__icon-link _icon-inst"> </a>
+                <a href="#" class="about-us-footer__icon-link _icon-whats-app">
+                </a>
+                <a href="#" class="about-us-footer__icon-link _icon-fb"> </a>
+                <a href="#" class="about-us-footer__icon-link _icon-x"> </a>
+              </ul>
+            </div>
+          </div>
+          <div
+            data-one-spoller
+            data-spollers="768"
+            class="spollers footer__content"
+          >
+            <details class="footer__links spollers__item links-footer">
+              <summary class="links-footer__wrapper-title spollers__title">
+                <h2 class="links-footer__title footer-title">Useful Links</h2>
+              </summary>
 
-		<footer class="footer">
-			<div data-watch data-watch-threshold="0.4" class="  footer__container-two">
-				<div class="footer__logo-two">
-					<img src="img/svg/logo-dark.svg" class="ibg" alt="logo footer" />
-				</div>
-				<div class="footer__about-us about-us-footer">
-					<div class="about-us-footer__logo">
-						<img src="img/svg/logo-dark.svg" class="ibg" alt="logo footer" />
-					</div>
-					<div class="about-us-footer__text">
-						<p>Deliver a thoughtful bouquet to brighten their day.</p>
-					</div>
-					<div class="about-us-footer__follow-us">
-						<h3 class="about-us-footer__title footer-title footer-title-one">
-							Follow us on
-						</h3>
-						<ul class="about-us-footer__row-icon">
-							<a href="#" class="about-us-footer__icon-link _icon-inst"> </a>
-							<a href="#" class="about-us-footer__icon-link _icon-whats-app"> </a>
-							<a href="#" class="about-us-footer__icon-link _icon-fb"> </a>
-							<a href="#" class="about-us-footer__icon-link _icon-x"> </a>
-						</ul>
-					</div>
-				</div>
-				<div data-one-spoller data-spollers="768" class="spollers footer__content">
-					<details class="footer__links spollers__item links-footer">
-						<summary class="links-footer__wrapper-title spollers__title">
-							<h2 class="links-footer__title footer-title">Useful Links</h2>
-						</summary>
+              <ul class="links-footer__list spollers__body">
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">Home</a>
+                </li>
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">About</a>
+                </li>
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">Editorial Floret</a>
+                </li>
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">Event Floret</a>
+                </li>
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">Custom Floret</a>
+                </li>
+                <li class="links-footer__item">
+                  <a href="#" class="links-footer__link">Wedding Floret</a>
+                </li>
+              </ul>
+            </details>
+            <details
+              class="footer__information information-footer spollers__item"
+            >
+              <summary class="footer__wrapper-title spollers__title">
+                <h2 class="information-footer__title footer-title">
+                  Information
+                </h2>
+              </summary>
 
-						<ul class="links-footer__list spollers__body">
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">Home</a>
-							</li>
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">About</a>
-							</li>
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">Editorial Floret</a>
-							</li>
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">Event Floret</a>
-							</li>
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">Custom Floret</a>
-							</li>
-							<li class="links-footer__item">
-								<a href="#" class="links-footer__link">Wedding Floret</a>
-							</li>
-						</ul>
-					</details>
-					<details class="footer__information information-footer spollers__item">
-						<summary class="footer__wrapper-title spollers__title">
-							<h2 class="information-footer__title footer-title">Information</h2>
-						</summary>
+              <ul class="information-footer__list spollers__body">
+                <li class="information-footer__item">
+                  <a href="#" class="information-footer__link">Career</a>
+                </li>
+                <li class="information-footer__item">
+                  <a href="#" class="information-footer__link">Blog</a>
+                </li>
+                <li class="information-footer__item">
+                  <a href="#" class="information-footer__link">Gallery</a>
+                </li>
+                <li class="information-footer__item">
+                  <a href="#" class="information-footer__link">Help & FAQs</a>
+                </li>
+              </ul>
+            </details>
+            <details
+              class="footer__contact-us contact-us-footer spollers__item"
+            >
+              <summary class="footer__wrapper-title spollers__title">
+                <h2 class="contact-us-footer__title footer-title">
+                  Contact Us
+                </h2>
+              </summary>
 
-						<ul class="information-footer__list spollers__body">
-							<li class="information-footer__item">
-								<a href="#" class="information-footer__link">Career</a>
-							</li>
-							<li class="information-footer__item">
-								<a href="#" class="information-footer__link">Blog</a>
-							</li>
-							<li class="information-footer__item">
-								<a href="#" class="information-footer__link">Gallery</a>
-							</li>
-							<li class="information-footer__item">
-								<a href="#" class="information-footer__link">Help & FAQs</a>
-							</li>
-						</ul>
-					</details>
-					<details class="footer__contact-us contact-us-footer spollers__item">
-						<summary class="footer__wrapper-title spollers__title">
-							<h2 class="contact-us-footer__title footer-title">Contact Us</h2>
-						</summary>
-
-						<div class="contact-us-footer__content spollers__body">
-							<a href="#" class="contact-us-footer__write">
-								<div class="contact-us-footer__icon _icon-mail"></div>
-								<p class="contact-us-footer__text">Write to us</p>
-							</a>
-							<a href="#" class="contact-us-footer__phone">
-								<div class="contact-us-footer__icon _icon-phone"></div>
-								<p class="contact-us-footer__number-phone">(119) 254-3121</p>
-							</a>
-							<a href="#" class="contact-us-footer__chat">
-								<div class="contact-us-footer__icon _icon-whats-app"></div>
-								<p class="contact-us-footer__text">Chat with us</p>
-							</a>
-						</div>
-					</details>
-				</div>
-			</div>
-		</footer>
-
-	</div>
-	<script src="js/app.min.js?_v=20240227143237"></script>
-</body>
-
+              <div class="contact-us-footer__content spollers__body">
+                <a href="#" class="contact-us-footer__write">
+                  <div class="contact-us-footer__icon _icon-mail"></div>
+                  <p class="contact-us-footer__text">Write to us</p>
+                </a>
+                <a href="#" class="contact-us-footer__phone">
+                  <div class="contact-us-footer__icon _icon-phone"></div>
+                  <p class="contact-us-footer__number-phone">(119) 254-3121</p>
+                </a>
+                <a href="#" class="contact-us-footer__chat">
+                  <div class="contact-us-footer__icon _icon-whats-app"></div>
+                  <p class="contact-us-footer__text">Chat with us</p>
+                </a>
+              </div>
+            </details>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/app.min.js?_v=20240227143237"></script>
+  </body>
 </html>
